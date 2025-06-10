@@ -65,7 +65,6 @@
 //   }
 // }
 
-
 import 'package:flutter/material.dart';
 import 'camera_service.dart';
 import 'camera_preview_overlay.dart';
@@ -89,6 +88,7 @@ class _ColorDetectionPageState extends State<ColorDetectionPage> {
   @override
   void initState() {
     super.initState();
+    initTts(); // Ini Tambahan
     _cameraService = CameraService(
       onColorDetected: (colorName) {
         if (!_isDetecting) return;
@@ -155,4 +155,3 @@ class _ColorDetectionPageState extends State<ColorDetectionPage> {
     );
   }
 }
-

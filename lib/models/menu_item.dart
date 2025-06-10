@@ -41,16 +41,4 @@ final List<MenuItem> menuItems = [
       icon: Icons.attach_money,
       color: Colors.grey.shade300,
       route: "/money_detection"),
-  MenuItem(
-      title: "Live Location",
-      subtitle: "Bagikan lokasi Anda secara real-time",
-      icon: Icons.location_on,
-      color: Colors.grey.shade300,
-      route: "/live_location"),
-  MenuItem(
-      title: "See For Me AI",
-      subtitle: "Gunakan suara atau teks dan tanyakan ke AI",
-      icon: Icons.chat_bubble_outline_outlined,
-      color: Colors.grey.shade300,
-      route: "/see_for_me_ai"),
 ];

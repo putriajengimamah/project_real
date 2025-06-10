@@ -3,6 +3,7 @@ import 'pages/splash_screen/splash_screen.dart';
 import 'pages/home_page/home_page.dart';
 import 'pages/scan_page/scan_text.dart';
 import 'pages/color_detection/color_detection_page.dart';
+import 'pages/money_detection/money_detection.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => const HomePage(),
         '/scan_text': (context) => ScanText(),
         '/color_detection': (context) => const ColorDetectionPage(),
+        '/money_detection': (context) => const MoneyDetectionPage(),
       },
     );
   }
