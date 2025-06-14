@@ -22,7 +22,8 @@ class _MoneyDetectionPageState extends State<MoneyDetectionPage> {
   bool _isLoading = false;
 
   // GANTI DENGAN IP ADDRESS LOKAL KOMPUTER ANDA
-  final String _apiUrl = "http://192.168.1.4:8000/predict";
+  // final String _apiUrl = "http://192.168.1.4:8000/predict";
+  final String _apiUrl = "http://192.168.48.123:8000/predict";
 
   @override
   void initState() {

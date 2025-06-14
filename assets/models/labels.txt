@@ -1,0 +1,6 @@
+background
+chair
+cupboard
+laptop
+tumbler
+wallet

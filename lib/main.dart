@@ -4,6 +4,8 @@ import 'pages/home_page/home_page.dart';
 import 'pages/scan_page/scan_text.dart';
 import 'pages/color_detection/color_detection_page.dart';
 import 'pages/money_detection/money_detection.dart';
+import 'pages/object_detection/object_detection_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -23,6 +25,8 @@ class MyApp extends StatelessWidget {
         '/scan_text': (context) => ScanText(),
         '/color_detection': (context) => const ColorDetectionPage(),
         '/money_detection': (context) => const MoneyDetectionPage(),
+        '/detection': (context) => const ObjectDetectionPage(),
+
       },
     );
   }
